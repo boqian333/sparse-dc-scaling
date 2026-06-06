@@ -185,7 +185,7 @@ The sparsity engine in [`sparselearning/core.py`](sparselearning/core.py) suppor
 ### Supported Sparse Training Algorithms
 
 | Algorithm | `--growth` | `--prune` | 
-|---|---|---|---|
+|---|---|---|
 | **SET** | `random` | `magnitude` | 
 | **RigL** | `gradient` | `magnitude` |
 | **RigL (momentum)** | `momentum` | `magnitude` |
