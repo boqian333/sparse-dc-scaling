@@ -184,14 +184,13 @@ The sparsity engine in [`sparselearning/core.py`](sparselearning/core.py) suppor
 
 ### Supported Sparse Training Algorithms
 
-| Algorithm | `--growth` | `--prune` | Reference |
+| Algorithm | `--growth` | `--prune` | 
 |---|---|---|---|
-| **SET** | `random` | `magnitude` | Mocanu et al., 2018 |
-| **RigL** | `gradient` | `magnitude` | Evci et al., 2020 |
-| **RigL (momentum)** | `momentum` | `magnitude` | — |
-| **RigL (acc. grad.)** | `gradient_acc` | `magnitude` | — |
-| **Soft Pruning DST** | `random` | `magnitude_soft` | Zhang et al., 2025 |
-| **Dynamic Dense (DDT)** | (any) | (any) | Topology evolution at density=1.0 |
+| **SET** | `random` | `magnitude` | 
+| **RigL** | `gradient` | `magnitude` |
+| **RigL (momentum)** | `momentum` | `magnitude` |
+| **RigL (acc. grad.)** | `gradient_acc` | `magnitude` | 
+| **Soft Pruning DST** | `random` | `magnitude_soft` | 
 
 ### Attention / MLP Ratio
 
